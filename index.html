@@ -51,6 +51,13 @@
          mso-font-alt: 'Arial'
          }
          }
+         .gifPara
+         {
+          padding-top: 744px;
+          padding-left: 69px;
+          line-height: 30px;
+          font-size: 20px;
+         }
          h1 {
          font-family: 'ClanPro-Thin';
          }
@@ -60,59 +67,133 @@
          }
          body,h1,p,h2,h3
          {
-          color:black;
+         color:black;
          }
-          @media only screen and (min-width: 800px) {
-            
-          tr .showText
-         {
-          display: visible ;
+         @media only screen and (min-width: 801px) {
          
+         .lineHeight
+         {
+         line-height: 25px;
+         }
+         .changeFontSize
+         {
+         font-weight: 500;
+         font-size: 18px;
+         }
+         h1 .headingChnage
+         {
+         font-size: 40px;
+         font-weight: 400;
+         margin:18px 0px;
+         }
+         .arrowSign
+         {
+         display: none;
+         }
+         #bgColorChnage
+         {
+         padding-left: 20px;
+         }
+         tr .showText
+         {
+         display: visible ;
          }
          tr .noneText
          {
-          display: none;
+         display: none;
          }
-          #changeText
-          {
-              color: white;
-          }
-          }
+         #changeText
+         {
+         color: white;
+         }
+         }
          @media only screen and (max-width: 800px) {
-          td .parafontSize
-            {
-              font-size: 12px;
-            }
-          #positionGiven
-          {
-            position: relative;
-            top: -5px;
-          }
-          td .datagifChangeFirst
-          {
-            width: 50%;
-            float: left;
-            clear: both;
-          }
-          #bgColorChnage
-          {
-            background: none;
-          }
-          #imgNone
-            {
-              display: none;
-            }
-          tr .showText
-          {
-            background: none;
-
-          }
-          #changeText
-          {
-                height: 50px;
-              color: #0f929a;
-              font-weight: bold;
-          }
+         .bgGif
+         {
+         height: 450px !important;
+         }
+         .ecnomyOpac
+         {
+         opacity: 0.5;
+         }
+         .changeFontSize
+         {
+         font-weight: 500;
+         font-size: 15px;
+         }
+         .arrowSign
+         {
+         display: visible;
+         position: relative;
+         bottom: 2px;
+         }
+         tr .noneText
+         {
+         font-weight: 600;
+         }
+         .lineHeight
+         {
+         line-height: 25px;
+         }
+         td .datagifChangeSecond
+         {
+         text-align: left !important;
+         }
+         .paraSizeChange
+         {
+         font-size: 17px !important;
+         font-weight: bold;
+         }
+         .featuresSize
+         {
+         font-size: 16px !important;
+         margin: 27px 0px;
+         }
+         #imageWidthChange
+         {
+         width: 200px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         }
+         td .parafontSize
+         {
+         font-size: 12px;
+         padding-left: 30px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-right: 30px;
+         }
+         #positionGiven
+         {
+         position: relative;
+         top: -5px;
+         }
+         td .datagifChangeFirst
+         {
+         width: 62%;
+         float: left;
+         clear: both;
+         }
+         #bgColorChnage
+         {
+         background: none;
+         }
+         #imgNone
+         {
+         display: none;
+         }
+         tr .showText
+         {
+         background: none;
+         }
+         #changeText
+         {
+         height: 50px;
+         color: #0f929a;
+         font-weight: bold;
+         padding: 15px 0px;
+         }
          .tableWidth{
          max-width: 370px;
          width: 100%;
@@ -123,8 +204,8 @@
          }
          .carMove
          {
-              height: 600px;
-    object-fit: cover;
+         height: 600px;
+         object-fit: cover;
          }
          .rowFlex td{
          display: block;
@@ -133,22 +214,24 @@
          {padding-left: 15px !important;
          padding-right: 15px !important;
          padding-top: 0px !important;
+         font-size: 21px;
          }
          .tdPaddingGiven
          {
-         padding-left: 15px !important;
-         padding-right: 15px !important;
+         padding: 10px 23px !important;
          }
          .gifPara
          {
-         position: absolute;
-         bottom: 15px !important;
-         font-size: 12px;
+                line-height: 24px !important;
+              font-size: 16px !important;
+              padding-top: 360px;
+              padding-left: 20px;
          }
-         #headingChnage
+         h1 .headingChnage
          {
-         font-size: 27px;
+         font-size: 45px;
          font-weight: 400;
+         margin:25px 0px;
          }
          #newTD
          {
@@ -158,14 +241,18 @@
          }
          td .hiddenText
          {
-          display: block !important;
-          font-weight: bold;
-          color: #0f929a;
-          padding-left: 30px;
+         display: block !important;
+         font-weight: bold;
+         color: #0f929a;
+         padding-left: 30px;
          }
          }
          @media (max-width: 400px)
          {
+         h1 .headingChnage
+         {
+         font-size: 41px;
+         }
          .tableWidth {
          max-width: 320px;
          width: 100%;
@@ -176,22 +263,6 @@
          {
          padding-left: 0px !important;
          padding-right: 0px !important; 
-         }
-         /*tr td .paddingRemove
-         {
-         padding-left: 15px !important;
-         padding-right: 15px !important;
-         }*/
-         #imageWidthChange
-         {
-         width: 280px;
-         }
-         .gifPara
-         {
-         left: 18px;
-         position: absolute;
-         bottom: 15px !important;
-         font-size: 13px;
          }
          }
       </style>
@@ -204,17 +275,17 @@
                <table id="removepaddingAfter" class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0" style="background-image: url(https://i.imgur.com/9twQIce.gif); margin-left: 20px; margin-right: 20px;padding-left: 30px; padding-right: 30px; padding-bottom: 30px; padding-top: 30px;">
                   <tr>
                      <td class="paddingRemove" style="padding-left: 50px;" >
-                        <img width="80" height="20" src="https://i.imgur.com/wcMkn4E.png">
+                        <img width="84" height="17" src="https://i.imgur.com/wcMkn4E.png">
                      </td>
                   </tr>
                   <tr>
                      <td class="paddingRemove" style="padding-left: 50px;">
-                        <h1 id="headingChnage">Ready When you are</h1>
+                        <h1 class="headingChnage" style="font-weight: 100">Ready When you are</h1>
                      </td>
                   </tr>
                   <tr>
                      <td class="paddingRemove" style="padding-left: 50px;">
-                        <p id="fontSizeChange">The New Uber App was rebuilt for speed. And Redesigned around you. </p>
+                        <p class="lineHeight changeFontSize">The New Uber App was rebuilt for speed.<br>And Redesigned around you. </p>
                      </td>
                   </tr>
                   <tr>
@@ -226,33 +297,29 @@
                                     <tr class="noneText" >
                                        <td bgcolor="#129399" style="
                                           display: flex;padding-left: 20px; max-width: 250px; max-height: 50px; ">
-                                          <a href="" style="padding: 0;padding-top: 15px;margin: 0;color:#ffffff;text-decoration: none;">OPEN THE APP</a>
-
+                                          <p style="margin: auto;font-size: 15px"><a href="" style="padding: 0;padding-top: 15px;margin: 0;color:#ffffff;text-decoration: none;padding-bottom: 15px">OPEN THE APP</a></p>
                                           <img width="50px;" src="https://i.imgur.com/k5P2rR4_d.jpg?maxwidth=640&shape=thumb&fidelity=medium">
                                        </td>
                                     </tr>
-                                     <tr class="showText">
-                             <td id="bgColorChnage" bgcolor="#129399" style="
-                                          display: flex;padding-left: 20px; max-width: 250px; max-height: 50px; ">
-                                          <p id="changeText" style="padding: 0; padding-top: 15px;margin: 0;">SEE WHATS NEW</p>
-
+                                    <tr class="showText">
+                                       <td id="bgColorChnage" bgcolor="#129399" style="
+                                          display: flex; max-width: 250px; max-height: 50px; ">
+                                          <p id="changeText" style="padding: 0; padding-top: 15px;padding-bottom: 15px;font-weight: bold;margin: 0;font-size: 15px">SEE WHATS NEW <span class="arrowSign">&nbsp;&nbsp;></span></p>
                                           <img id="imgNone" width="50px;" src="https://i.imgur.com/k5P2rR4_d.jpg?maxwidth=640&shape=thumb&fidelity=medium">
                                        </td>
-                           </tr>
+                                    </tr>
                                  </table>
                               </td>
                            </tr>
-                          
                         </table>
                      </td>
                   </tr>
                </table>
-               <table class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0" >
-                  <tr >
-                     <td style="position: relative;">
-                        <img class="imgWidth carMove" width="800" src="https://i.imgur.com/A87Detp.gif">
-                        <p class="gifPara" style="position: absolute; bottom: 60px; left: 30px; ">Don't see the new app on your phone. Update in Goolge Play store.</p>
-                     </td>
+               <table  class="tableWidth bgGif" style="background-image: url(https://i.imgur.com/A87Detp.gif);background-position: center;background-size: cover;height: 900px;" class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0" >
+                  <tr>
+                  <td>
+                     <p class="gifPara initialStage">Don't see the new app on your phone?<br> Update in Goolge Play Store.</p>
+                  </td>
                   </tr>
                </table>
                <table style="background-color: black" class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0">
@@ -262,21 +329,21 @@
                      </td>
                      <td id="positionGiven" style="background-color: #000000; padding: 20px 30px;">
                         <h1 style="color: #ffffff;">Take The Shortcut</h1>
-                        <p style="color: #ffffff;">The new app learn from your ride routines. So where you're going might already be figured out.</p>
+                        <p class="lineHeight" style="color: #ffffff;">The new app learn from your ride routines. So where you're going might already be figured out.</p>
                      </td>
                   </tr>
                </table>
                <table class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0" style="background-image:url(https://i.imgur.com/a7YBKFZ.gif);">
                   <tr class="rowFlex"  style="align-items: center;">
-                     <td class="tdPaddingGiven" valign="top" style=" padding: 30px 90px 0 80px;">
-                        <h3 style="font-size: 25px;">Compare Your Options</h3>
-                        <p id="paraFontChange" style="font-size: 16px;">Now with upfront fares for most trips, It's easier than ever to pick the right ride and hit the road.</p>
+                     <td class="tdPaddingGiven" valign="top" style=" padding: 27px 100px 27px 100px;">
+                        <h3 style="font-size: 25px;font-family:ClanPro-Thin ">Compare your options</h3>
+                        <p id="paraFontChange" class="lineHeight" style="font-size: 16px;">Now with upfront fares for most trips, It's easier than ever to pick the right ride and hit the road.</p>
                      </td>
                      <td class="paddingRemove" style="padding-right: 30px; padding-top: 30px;">
                         <table bgcolor="#ffffff" style="width:  100%;">
                            <tr>
                               <td colspan="2" style="text-align: center;">
-                                 <p style="font-size:20px; margin: 0;">Economy</p>
+                                 <p style="font-size:20px; margin: 0;opacity: 0.5">Economy</p>
                               </td>
                            </tr>
                            <tr>
@@ -284,59 +351,42 @@
                            </tr>
                            <tr>
                               <td class="datagifChangeFirst" style="text-align: center;">
-                                 <p style="font-size:20px; margin: 0;">$ 3.33</p>
-                                 <p>8:14 am</p>
+                                 <p class="paraSizeChange" style="font-size:20px; margin: 0;font-weight: 600">$ 3.33</p>
+                                 <p style="opacity: 0.5;font-size: 18px">8:16am</p>
                               </td>
                               <td class="datagifChangeSecond" style="text-align: center;">
-                                 <p style="font-size:20px; margin: 0;">$ 7.89</p>
-                                 <p>8:14 am</p>
+                                 <p class="paraSizeChange" style="font-size:20px; margin: 0;font-weight: 600">$ 7.89</p>
+                                 <p style="opacity: 0.5;font-size: 18px">8:05am</p>
                               </td>
                            </tr>
                         </table>
-                        <p>features and products varied by location.</p>
+                        <p class="featuresSize" style="font-size: 17px">Features and products vary by location.</p>
                      </td>
                   </tr>
                </table>
                <table class="tableWidth" width="800" cellspacing="0" class="tbl_main_wrapper" cellpadding="0" style="background-color: #000000;">
                   <tr>
                      <td colspan="2" >
-                        <img width="100" height="30" style="padding: 45px 35px;" src="https://i.imgur.com/T7SOarh.png">
+                        <img width="90" height="20" style="padding: 45px 35px;" src="https://i.imgur.com/T7SOarh.png">
                         <hr style="margin-right: 30px; margin-left: 30px; border: 1px solid #e7e7e7;">
                      </td>
                   </tr>
                   <tr class="rowFlex">
                      <td class="parafontSize" style="padding-left: 30px;">
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
-                        <p style="color: #ffffff;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
+                        <p style="color: #ffffff;">%%=v(@getHelp)=%%</p>
+                        <p style="color: #ffffff;">%%=v(@vo)=%%</p>
+                        <p style="color: #ffffff;">%%[IF @id == 140 THEN]%% %%=v(@unsub)=%%</p>
+                        <p style="color: #ffffff;">%%[ELSE]%% %%=v(@unsub)=%% %%[ENDIF]%%</p>
                      </td>
                      <td class="parafontSize" style="padding-left: 30px;">
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
-                        <p style="color: #ffffff;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
-                        <p style="color: #ffffff;">What is Lorem Ipsum?</p>
+                        <p style="color: #ffffff;">%%=ContentArea('1748833')=%%</p>
+                        <p style="color: #ffffff;">%%=v(@privacy)=%%</p>
+                        <p style="color: #ffffff;">%%=v(@terms)=%%</p>
                      </td>
                   </tr>
                </table>
             </td>
          </tr>
       </table>
-<!--       <script type="text/javascript">
-         function myFunction(x) {
-         if (x.matches) { // If media query matches
-           document.getElementById("newTD").innerHTML="SEE WHATS NEW";
-           document.getElementById("changeText").innerHTML="OPEN THE APP";
-         }
-         else {
-         document.getElementById("newTD").innerHTML="";
-         document.getElementById("changeText").innerHTML="SEE WHATS NEW";
-         }
-         }
-         
-         var x = window.matchMedia("(max-width: 800px)")
-         myFunction(x) // Call listener function at run time
-         x.addListener(myFunction) // Attach listener function on state changes
-      </script>   -->  
    </body>
 </html>
